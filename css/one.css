@@ -1,0 +1,140 @@
+
+body, html
+{
+    margin: 0;
+    padding: 0;
+}
+.head
+{
+    text-align: center;
+    background-color: rgb(224, 70, 78);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.5em;
+
+}
+
+section.head > img 
+{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+section.head > div.maneno
+{
+    align-self: center;
+}
+
+.styled
+{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+
+.holder
+{
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.amazing
+{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(8, 124, 60);
+}
+
+.wardStatus
+{
+    text-decoration: none;
+}
+
+
+.pop
+{
+    color: rgb(104, 36, 104);
+    font-weight: bolder;
+}
+
+.col
+{
+    border: 0.2px rgb(129, 89, 89) solid ;
+    padding: 4rem 0;
+    position: relative;
+}
+
+
+.one{
+    background-image: url("../assets/south.svg");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.twoo{
+    background-image: url("../assets/west.svg");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.three
+{
+    
+    background-image: url("../assets/northed.svg");
+    background-position: right top;
+    background-repeat: no-repeat;
+
+}
+
+.four{
+    background-image: url("../assets/east.svg");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.roadCl > span
+{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: cursive;
+    color: blue;
+
+}
+
+
+.cross
+{
+    position: relative;
+}
+
+.fg{
+    max-width: 100%;
+    height: 60%;
+}
+
+.Maelezo
+{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.7em  0;
+  /* background-color: chocolate; */
+  /* border-radius: 30px; */
+  font-weight: bolder;
+  font-style: italic;
+  font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
